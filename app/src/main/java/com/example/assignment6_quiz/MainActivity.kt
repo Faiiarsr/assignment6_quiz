@@ -19,12 +19,12 @@ class MainActivity : AppCompatActivity() {
         }
         button2 .setOnClickListener {
             val intent = Intent(this,MainActivity2::class.java)
-            intent.putExtra(faii,"ถูกกกกก!!")
+            intent.putExtra(faii,"ผิดดดดด!!")
             startActivity(intent)
         }
         button3 .setOnClickListener {
-            val intent = Intent(this,MainActivity2::class.java)
-            intent.putExtra(faii,"ผิดดดดด!!")
+            val intent = Intent(this,MainActivity3::class.java)
+            intent.putExtra(faii,"ถูกกกกก!!")
             startActivity(intent)
         }
         button4 .setOnClickListener {

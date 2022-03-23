@@ -9,45 +9,36 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=" คำสั่ง scanf () ทำหน้าที่อะไร"
+        android:layout_width="290dp"
+        android:layout_height="38dp"
+        android:text="1. OSI Layer มีทั้งหมดกี่ Layer "
         android:textAlignment="center"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.146" />
+        app:layout_constraintVertical_bias="0.18" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="420dp"
         android:layout_height="0dp"
-        android:layout_marginTop="106dp"
+        android:layout_marginTop="68dp"
         android:backgroundTint="#03A9F4"
-        android:text="แสดงผลข้อมูลทุกชนิดออกทางจอภาพ"
+        android:text="a. 5 Layer"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="420dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="#03A9F4"
-        android:text="รับข้อมูลจากทางคีย์บอร์ด"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="420dp"
         android:layout_height="0dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="#03A9F4"
-        android:text="ล้างหน้าจอ"
+        android:text="c. 7 Layer"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
@@ -55,10 +46,20 @@
         android:id="@+id/button4"
         android:layout_width="420dp"
         android:layout_height="0dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#03A9F4"
-        android:text="คืนค่ากลับ"
+        android:text="d. 8 Layer"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#03A9F4"
+        android:text="b. 6 Layer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
